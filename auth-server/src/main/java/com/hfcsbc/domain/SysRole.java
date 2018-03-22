@@ -9,7 +9,7 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
+/** 角色
  * Created by wangyunfei on 2017/6/9.
  */
 @Entity

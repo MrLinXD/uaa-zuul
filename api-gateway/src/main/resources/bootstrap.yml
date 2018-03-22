@@ -5,7 +5,7 @@ spring:
       name: api-gateway
 #  cloud:
 #    config:
-#      uri: http://${config.host:192.168.1.140}:${config.port:8888}
+#      uri: http://${config.host:127.0.0.1}:${config.port:8888}
 
 server:
   port: 8080

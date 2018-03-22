@@ -19,3 +19,5 @@ BEGIN;
 INSERT INTO "public"."sys_user_roles" VALUES ('5', '3');
 INSERT INTO "public"."sys_user_roles" VALUES ('6', '4');
 
+BEGIN;
+COMMIT;

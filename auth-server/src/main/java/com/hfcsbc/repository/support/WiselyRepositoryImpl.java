@@ -25,12 +25,11 @@ public class WiselyRepositoryImpl<E, PK extends Serializable> extends SimpleJpaR
     }
 
 
-
     @Override
     public Page<E> queryByExampleWithRange(Example example, List<Range<E>> ranges, Pageable pageable) {
         Specification<E> byExample = new ByExampleSpecification<>(example);
         Specification<E> byRanges = new ByRangeSpecification<>(ranges);
-        return findAll(where(byExample).and(byRanges),pageable);
+        return findAll(where(byExample).and(byRanges), pageable);
     }
 
 

@@ -15,7 +15,7 @@ import javax.persistence.MappedSuperclass;
 import java.io.Serializable;
 import java.time.Instant;
 
-/**
+/** 公共实体类
  * Base abstract class for entities which will hold definitions for created, last modified by and created,
  * last modified by date.
  */
